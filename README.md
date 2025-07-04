@@ -1,12 +1,7 @@
 # About
 My first legged robot. This was not really designed in terms of using math with regard to torque on servos/current draw/etc... as a result it works best on flat surfaces. The motion of the body is also not great since it can't really lift the legs straight up, rather just swing them out then in an arc to move. I worked on the control system by phone, I have an ESP8266-01 and it has a websocket server that my phone connects to, then by serial between the ESP and Arduino I can send commands to run specific gaits to move the robot. At the moment I only have some forward gaits, I am still working on improving/writing better "abstractions" for the code eg. passing in an array of servos/ranges into a function to move the servos at the same time. Right now I just have a bunch of loops as a proof of concept.
 
-This is not intended to be replicated, I mean all the parts are here and I'll provide estimates on print but it's not a good design.
 
-This project has been in progress for at least a week, I don't have a repo history because I published my WiFi SSD credentials in the original private repo.
-
-# Status
-Pretty much done/abandoned since the body is too weak and dumb to do anything more. It has a run time I could venture to say up to 2.5 hrs on the specified specs but that's absolutely dry. I did a 30 minute non-stop run and it pulled about 500mAh from the battery. This is at 5.5V at the step down buck converter as I was trying to have the servos use around 4.8V. It seems to perform better here than 6V as it was initially. The next project I'm working on the hybrid sensor pack will weigh at least 6oz and I put an 8oz weight on top of the robot and it could not carry it... so that's why I'm kind of going to abandon this robot as is since it's a disappointment in terms of the build/no brain.
 
 # The vision/concept
 
