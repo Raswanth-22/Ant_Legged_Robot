@@ -83,15 +83,9 @@ That gives some extra weight that could be carried.
 - 1 hr 26 mins 1 swivel arm
 - 1 hr 34 mins main stick with holes
 
-## Update
-I would suggest printing the legs(pitch and swivel) thicker as they experience the most stress. This is only really a problem on carpet. I am printing out these foot cups which may help alleviate the stress on the legs but still it may be a good idea to increase that thickness(will need to reslice).
-
 # Software
 
 The parts were designed with Google SketchUp. I used a plugin to export the STL file(as well as a solid part inspector plugin) then used Cura to slice the parts. Take note of parts that need supports, you have to turn that on in Cura. Parts are printed with a Creality Ender 3 Pro.
 
-# Warning
-
-The servo horn spline I have here is bad, they slip. I traced/made my own from a photo I took. I ended up having to use long screws and super glue to try and make them not slip. Also the design is generally bad where the servos are directly holding the load vs. just transfering motion. And overall the design is bad as I mentioned with how it can move. I think you need more servos but it's nuts thinking each leg would have at least 3 servos and a true hexapod would have 18 servos right there.
 
 
